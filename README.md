@@ -107,6 +107,11 @@ En este proyecto:
 Una posible forma de organizarlo:
 
 ```python
+
+En este proyecto, CanalNoticias actúa como el sujeto observable porque publica mensajes y notifica cambios.
+
+SuscriptorEmail y SuscriptorSMS actúan como observadores porque reciben las notificaciones mediante el método actualizar.
+
 class CanalNoticias:
     def __init__(self, nombre):
         self.nombre = nombre
@@ -180,4 +185,6 @@ Al terminar las misiones, se creará un issue final de calificación. Ejecuta ma
 
 ## Autores
 
-- Reemplaza esta línea con tu nombre, grupo, curso o rol.
+- ## Autores
+
+- Luis Hernández - Estudiante
