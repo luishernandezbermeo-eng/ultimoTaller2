@@ -19,3 +19,5 @@ class CanalNoticias:
     def publicar(self, mensaje):
         self.ultimo_mensaje = mensaje
         self.notificar(mensaje)
+
+#canal
